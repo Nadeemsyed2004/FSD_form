@@ -7,7 +7,10 @@ const addEmp = require('./controllers/auth.js');
 require('dotenv').config();
 db();
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://fsd-form-nadeemsyed2004s-projects.vercel.app'
+}));
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
