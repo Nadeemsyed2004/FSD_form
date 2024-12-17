@@ -9,7 +9,7 @@ function EmployeeForm() {
     const handleSubmit = async (values, { resetForm }) => {
         try {
           const response = await fetch(
-            "http://localhost:5000/api/auth/addEmployee",
+            "https://fsd-form-f9tt.onrender.com/api/auth/addEmployee",
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
