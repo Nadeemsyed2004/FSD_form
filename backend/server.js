@@ -8,7 +8,7 @@ require('dotenv').config();
 db();
 
 app.use(cors({
-  origin: 'https://fsd-form-nadeemsyed2004s-projects.vercel.app'
+  origin: 'https://fsd-form-bonovtkka-nadeemsyed2004s-projects.vercel.app'
 }));
 
 app.use(express.json());
